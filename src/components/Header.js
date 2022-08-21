@@ -1,6 +1,7 @@
 import React from 'react';
-import '../scss/Header.scss';
+import { LinkContainer } from 'react-router-bootstrap'
 import Nav from 'react-bootstrap/Nav';
+import '../scss/Header.scss';
 
 class Header extends React.Component {
   render() {
@@ -8,15 +9,15 @@ class Header extends React.Component {
       <header>
         <h1>Raber Bay Resort</h1>
         <Nav activeKey="/home">
-          <Nav.Item>
+          <LinkContainer to="/home">
             <Nav.Link href="/home">Home</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-1">Cabins</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey="link-2">Contact Us</Nav.Link>
-          </Nav.Item>
+          </LinkContainer>
+          <LinkContainer to="/cabins">
+            <Nav.Link eventKey="cabins">Cabins</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/contact">
+            <Nav.Link eventKey="contact">Contact Us</Nav.Link>
+          </LinkContainer>
         </Nav>
       </header>
     );

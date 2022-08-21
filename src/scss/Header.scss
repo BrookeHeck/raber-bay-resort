@@ -17,15 +17,15 @@ h1 {
   margin: 0 auto
 }
 
-.nav-item a {
+.nav-link {
   color: white;
   margin: 2px 5px;
-  border: solid transparent 2px;
+  border: solid transparent 1px;
   border-radius: 5px;
 }
 
-.nav-item a:hover {
+.nav-link:hover {
   color: #a3b18a;
-  border: solid #a3b18a 2px;
+  border: solid #a3b18a 1px;
   border-radius: 5px;
 }
