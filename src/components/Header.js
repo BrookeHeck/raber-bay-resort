@@ -1,11 +1,10 @@
 import React from 'react';
+import '../scss/Header.scss';
 
 class Header extends React.Component {
   render() {
     return (
-      <Header>
-        <h1>Hello From My App</h1>
-      </Header>
+      <h1>Hello From My App</h1>
     );
   }
 }

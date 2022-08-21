@@ -1,10 +1,10 @@
 import React from 'react';
+import '../scss/Footer.scss';
 
 class Footer extends React.Component {
   render() {
     return (
-      <Footer>
-      </Footer>
+      <h3>Footer</h3>
     );
   }
 }

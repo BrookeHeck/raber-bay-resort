@@ -1,10 +1,10 @@
 import React from 'react';
+import '../scss/Main.scss';
 
 class Main extends React.Component {
   render() {
     return (
-      <Main>
-      </Main>
+      <h2>Main</h2>
     );
   }
 }
