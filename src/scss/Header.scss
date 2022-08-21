@@ -1,5 +1,5 @@
 header {
-  background-color: #3a5a40;
+  background-color: #344e41;
   color: white;
   font-family: 'Rubik', sans-serif;
 }
@@ -17,14 +17,14 @@ h1 {
   margin: 0 auto
 }
 
-.nav-link {
+.nav a {
   color: white;
   margin: 2px 5px;
   border: solid transparent 1px;
   border-radius: 5px;
 }
 
-.nav-link:hover {
+.nav a:hover, .nav a .active {
   color: #a3b18a;
   border: solid #a3b18a 1px;
   border-radius: 5px;
