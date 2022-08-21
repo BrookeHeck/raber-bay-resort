@@ -1,0 +1,31 @@
+header {
+  background-color: #3a5a40;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  display: inline;
+  width: fit-content;
+  margin-left: 10px;
+
+}
+
+.nav {
+  width: fit-content;
+  flex-wrap: nowrap;
+  margin: 0 auto
+}
+
+.nav-item a {
+  color: white;
+  margin: 2px 5px;
+  border: solid transparent 2px;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  color: #a3b18a;
+  border: solid #a3b18a 2px;
+  border-radius: 5px;
+}
