@@ -1,3 +1,15 @@
+# Raber Ray Resort
+
+## Summary
+
+## Author: Brooke Heck
+
+## Resources
+
+## Reflections and Comments
+
+
+<br/><br/>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
